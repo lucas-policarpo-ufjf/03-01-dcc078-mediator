@@ -25,6 +25,7 @@ public class ServiceMusic implements Service {
     return "Musica excluída: " + values;
   }
 
+  // tests cleanup
   public void clearAll() {
     this.musics.clear();
   }
